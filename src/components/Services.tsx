@@ -14,23 +14,23 @@ const Services = () => {
   const services = [
     {
       icon: Lightbulb,
-      title: "Intelligent API Orchestration",
+      title: "Intelligent Workflow Orchestration",
       description: [
-        "We don't just write scripts; we build robust middleware. We connect your core systems (Salesforce, ERPs, SQL Databases) to AI models, allowing them to read, write, and act on your data automatically - without manual copy-pasting.",
+        "We manage approvals, data routing, and exception handling without brittle rule-based systems. If a process creates a bottleneck, our AI agents detect it and route around it or alert a human, keeping your operations moving.",
       ],
     },
     {
       icon: Shield,
-      title: "Legacy System Modernization",
+      title: "Data & Document Intelligence (IDP)",
       description: [
-        "You don’t need to rebuild your entire stack to use AI. We wrap your legacy infrastructure in modern API layers, giving your older secure systems a \"voice\" and the ability to interact with modern Generative AI tools.",
+        "Stop manual data entry. We use Computer Vision and NLP to instantly extract, validate, and classify data from invoices, contracts, emails, and receipts - feeding clean data directly into your ERP or CRM.",
       ],
     },
     {
       icon: Puzzle,
-      title: "Secure Data Pipelines (RAG)",
+      title: "System-to-System Bridges",
       description: [
-        "We architect Retrieval-Augmented Generation (RAG) pipelines that securely feed your private business data to AI models in real-time. This ensures accurate answers based on your facts, not public internet hallucinations.",
+        "We connect the unconnected. We build secure pipelines between your legacy platforms, modern APIs, and AI models to create seamless, end-to-end automated loops that run 24/7 without human intervention.",
       ],
     },
   ];
@@ -69,10 +69,10 @@ const Services = () => {
               className="text-4xl md:text-5xl font-bold mb-4"
               style={{ color: "#192841" }}
             >
-              What We Help You Achieve
+              What We Automate
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              We bridge the gap between "AI Potential" and "Production Reality."
+              Moving beyond basic scripts to intelligent decision-making.
             </p>
           </div>
 

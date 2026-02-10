@@ -10,24 +10,24 @@ const AudienceSegments = () => {
   const segments = [
     {
       icon: Rocket,
-      title: "Funded Startups",
+      title: "Operations Teams: Logistics & Routing.",
       description:
-        "We wrap complex AI models in simple APIs, allowing you to build features quickly without hiring a full data science team.",
-      cta: "Build Your MVP",
+        "Automate dispatching, inventory tracking, and supply chain updates in real-time.",
+      cta: "Optimize Logistics",
     },
     {
       icon: Building2,
-      title: "Enterprises",
+      title: "Finance & HR: Back-Office Speed.",
       description:
-        "We connect Generative AI to your on-premise databases and ERPs using secure, private pipelines (RAG) that respect your governance.",
-      cta: "Modernize Your Stack",
+        "Automate invoice processing, payroll reconciliation, and employee onboarding workflows.",
+      cta: "Streamline Finance",
     },
     {
       icon: Users,
-      title: "Product Teams",
+      title: "SaaS Platforms: Background Processing.",
       description:
-        "We handle the heavy lifting of vector databases and latency optimization so your frontend team can focus on UI/UX.",
-      cta: "Augment Your Backend",
+        "Build invisible automation layers that handle user data processing without slowing down the frontend.",
+      cta: "Automate Backend",
     },
   ];
 
@@ -51,10 +51,10 @@ const AudienceSegments = () => {
               className="text-4xl md:text-5xl font-bold mb-4"
               style={{ color: "#192841" }}
             >
-              Tailored Integration Models
+              Who Needs Intelligent Automation?
             </h2>
             <p className="text-xl text-muted-foreground">
-              Whether you are building new or fixing old, we have the architecture.
+              If your team is drowning in data entry, we can help.
             </p>
           </div>
 

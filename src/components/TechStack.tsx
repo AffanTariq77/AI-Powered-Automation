@@ -7,73 +7,73 @@ const TechStack = () => {
   const techCategories = {
     orchestration: [
       {
+        name: "Airflow",
+        details: {
+          title: "Airflow",
+          desc: "For orchestration",
+          url: "https://airflow.apache.org/",
+        },
+      },
+      {
         name: "LangChain",
         details: {
           title: "LangChain",
-          desc: "For managing complex flows",
+          desc: "For complex decision trees",
           url: "https://www.langchain.com/",
         },
       },
+    ],
+    extraction: [
       {
-        name: "AutoGen",
+        name: "OpenAI Vision",
         details: {
-          title: "AutoGen",
-          desc: "For managing complex flows",
-          url: "https://microsoft.github.io/autogen/",
+          title: "OpenAI Vision",
+          desc: "For reading files",
+          url: "https://platform.openai.com/",
+        },
+      },
+      {
+        name: "Azure Document Intelligence",
+        details: {
+          title: "Azure Document Intelligence",
+          desc: "For reading files",
+          url: "https://learn.microsoft.com/azure/ai-services/document-intelligence/",
         },
       },
     ],
-    backend: [
+    integration: [
       {
-        name: "Python (FastAPI)",
+        name: "Python",
         details: {
-          title: "Python (FastAPI)",
-          desc: "For secure, scalable APIs",
-          url: "https://fastapi.tiangolo.com/",
+          title: "Python",
+          desc: "For custom API connectors",
+          url: "https://www.python.org/",
         },
       },
       {
         name: "Node.js",
         details: {
           title: "Node.js",
-          desc: "For high-speed APIs",
+          desc: "For custom API connectors",
           url: "https://nodejs.org/",
         },
       },
     ],
-    infrastructure: [
+    database: [
       {
-        name: "Docker",
+        name: "SQL",
         details: {
-          title: "Docker",
-          desc: "For scalable deployment",
-          url: "https://www.docker.com/",
+          title: "SQL",
+          desc: "For storing structured output",
+          url: "https://www.iso.org/standard/63555.html",
         },
       },
       {
-        name: "Kubernetes",
+        name: "Snowflake",
         details: {
-          title: "Kubernetes",
-          desc: "For scalable deployment",
-          url: "https://kubernetes.io/",
-        },
-      },
-    ],
-    cloud: [
-      {
-        name: "AWS Lambda",
-        details: {
-          title: "AWS Lambda",
-          desc: "For serverless execution",
-          url: "https://aws.amazon.com/lambda/",
-        },
-      },
-      {
-        name: "Azure Functions",
-        details: {
-          title: "Azure Functions",
-          desc: "For serverless execution",
-          url: "https://azure.microsoft.com/products/functions/",
+          title: "Snowflake",
+          desc: "For storing structured output",
+          url: "https://www.snowflake.com/",
         },
       },
     ],
@@ -124,10 +124,10 @@ const TechStack = () => {
             className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold mb-3 xs:mb-4"
             style={{ color: "#192841" }}
           >
-            The Integration & Backend Stack
+            The Automation Stack
           </h2>
           <p className="text-sm xs:text-base sm:text-xl text-muted-foreground max-w-3xl mx-auto">
-            The infrastructure we use to connect and secure your systems.
+            Tools for orchestration, extraction, and execution.
           </p>
         </div>
 
@@ -135,9 +135,9 @@ const TechStack = () => {
           <Tabs defaultValue="orchestration" className="w-full">
             <TabsList className="grid grid-cols-2 sm:grid-cols-4 w-full mb-8 xs:mb-10 sm:mb-12 gap-1 xs:gap-2 h-auto p-1 xs:p-1.5">
               <TabsTrigger value="orchestration" className="text-xs xs:text-sm py-2 xs:py-3">Orchestration</TabsTrigger>
-              <TabsTrigger value="backend" className="text-xs xs:text-sm py-2 xs:py-3">Backend</TabsTrigger>
-              <TabsTrigger value="infrastructure" className="text-xs xs:text-sm py-2 xs:py-3">Infrastructure</TabsTrigger>
-              <TabsTrigger value="cloud" className="text-xs xs:text-sm py-2 xs:py-3">Cloud</TabsTrigger>
+              <TabsTrigger value="extraction" className="text-xs xs:text-sm py-2 xs:py-3">Extraction (IDP)</TabsTrigger>
+              <TabsTrigger value="integration" className="text-xs xs:text-sm py-2 xs:py-3">Integration</TabsTrigger>
+              <TabsTrigger value="database" className="text-xs xs:text-sm py-2 xs:py-3">Database</TabsTrigger>
             </TabsList>
             {Object.entries(techCategories).map(([key, technologies]) => (
               <TabsContent key={key} value={key} className="space-y-6 xs:space-y-8">

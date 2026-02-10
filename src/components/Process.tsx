@@ -5,38 +5,43 @@ const Process = () => {
   const steps = [
     {
       number: "01",
-      title: "Understand",
-      description: "Audit your current ecosystem.",
+      title: "Understand (Analyze)",
+      description:
+        "Identify high-impact automation opportunities and map the current manual flow.",
       details:
-        "We map your current API ecosystem and identify data security bottlenecks before touching code.",
+        "We uncover the highest ROI workflows and document the exact handoffs, data entry points, and bottlenecks.",
     },
     {
       number: "02",
-      title: "Architect",
-      description: "Design the middleware core.",
+      title: "Architect (Design)",
+      description:
+        "Architect AI-driven workflows that align with your operations and security protocols.",
       details:
-        "We design the middleware architecture, ensuring low latency and strict access controls for the AI.",
+        "We design automation logic, data flow, and guardrails that meet your compliance and reliability standards.",
     },
     {
       number: "03",
-      title: "Build",
-      description: "Connect your systems to AI.",
+      title: "Build (Integrate)",
+      description:
+        "Deploy automation into existing tools, replacing manual steps with API triggers.",
       details:
-        "We code the integrations, setting up the pipelines that allow your software to \"talk\" to the AI models.",
+        "We connect your systems, build connectors, and orchestrate end-to-end execution without breaking existing processes.",
     },
     {
       number: "04",
-      title: "Iterate",
-      description: "Optimize for reliability and speed.",
+      title: "Iterate (Optimize)",
+      description:
+        "Monitor performance, handling edge cases where the automation might need human review.",
       details:
-        "We stress-test the connection for speed, handling edge cases where the AI might timeout or hallucinate.",
+        "We watch accuracy, improve models, and implement human-in-the-loop review where it adds control.",
     },
     {
       number: "05",
       title: "Scale",
-      description: "Harden for production traffic.",
+      description:
+        "Expand the automation logic to handle higher volumes and new use cases.",
       details:
-        "We implement caching and load balancing to ensure the integration survives peak traffic.",
+        "We harden workflows for growth and continuously extend automation coverage across teams.",
     },
   ];
 
@@ -70,10 +75,10 @@ const Process = () => {
             className="text-4xl md:text-5xl font-bold mb-4"
             style={{ color: "#192841" }}
           >
-            The Integration Roadmap
+            The Automation Blueprint
           </h2>
           <p className="text-xl text-muted-foreground">
-            How we safely connect AI to your business core.
+            From manual chaos to autonomous execution.
           </p>
         </div>
 

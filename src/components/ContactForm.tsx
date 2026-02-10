@@ -116,7 +116,7 @@ const ContactForm = ({ onlyForm = false }: { onlyForm?: boolean }) => {
         className="w-full hover:bg-sky-400 hover:shadow-sky-blue bg-[#192841] text-white text-base font-semibold rounded-lg py-3 sm:py-4"
         disabled={loading}
       >
-        {loading ? "Starting..." : "Start Your AI Implementation"}
+        {loading ? "Starting..." : "Start Automating With AI"}
       </Button>
     </form>
   );
@@ -126,23 +126,23 @@ const ContactForm = ({ onlyForm = false }: { onlyForm?: boolean }) => {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Your Data Is Talking. Are You Listening?
+            Your Processes Shouldn’t Slow You Down.
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Stop wondering "what if" and start seeing what AI can do for your bottom line.
+            Let AI handle the repetitive work so, your teams can focus on what actually drives growth.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Left Side - Benefits */}
           <div className="space-y-8">
-            <h3 className="text-2xl sm:text-3xl font-bold">Ready to connect?</h3>
+            <h3 className="text-2xl sm:text-3xl font-bold">Ready to speed up?</h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-lg">Deliverable</h4>
                   <p className="text-muted-foreground">
-                    Get a technical integration plan.
+                    A process automation audit.
                   </p>
                 </div>
               </div>
@@ -151,7 +151,7 @@ const ContactForm = ({ onlyForm = false }: { onlyForm?: boolean }) => {
                 <div>
                   <h4 className="font-semibold text-lg">Clarity</h4>
                   <p className="text-muted-foreground">
-                    See how your specific stack connects to AI.
+                    Identify your biggest time-sinks.
                   </p>
                 </div>
               </div>

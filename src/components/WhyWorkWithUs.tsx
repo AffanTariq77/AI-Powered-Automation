@@ -5,21 +5,21 @@ import { Brain, Rocket, Zap } from "lucide-react";
 const pillars = [
   {
     icon: Brain,
-    title: "Security-First Mindset",
+    title: "AI at the Core",
     description:
-      "Your data is your most valuable asset. We build secure API gateways and PII masking layers to ensure sensitive customer data is never exposed to public models training sets.",
+      "We go beyond RPA and basic scripts, using machine learning and intelligent agents to handle real-world complexity and unstructured data that breaks traditional bots.",
   },
   {
     icon: Rocket,
-    title: "End-to-End Accountability",
+    title: "Secure & Scalable",
     description:
-      "From the first prompt to the millionth API call, we manage the lifecycle. If an API changes or a model updates, our modular architecture ensures your system doesn't break.",
+      "Built with enterprise-grade security, auditability, and scalability from day one. Your data remains encrypted, and every automated action is logged for compliance.",
   },
   {
     icon: Zap,
-    title: "Performance Optimization",
+    title: "Built Around Your Business",
     description:
-      "Integration introduces latency. We obsess over milliseconds, using vector caching and efficient token management to keep your user experience snappy and your cloud bills low.",
+      "No off-the-shelf templates. Every automation is designed for your specific data structure, workflows, and business goals.",
   },
 ];
 
@@ -43,10 +43,10 @@ const WhyWorkWithUs = () => {
             className="text-4xl md:text-5xl font-bold mb-4"
             style={{ color: "#192841" }}
           >
-            Why Companies Trust Our Code
+            Why Our Automation Works
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We treat AI integration as a critical engineering discipline.
+            We build systems that adapt, not just scripts that break.
           </p>
         </div>
         {/* SVG gradient definition rendered once */}
