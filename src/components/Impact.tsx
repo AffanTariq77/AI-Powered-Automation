@@ -16,10 +16,25 @@ const Impact = () => {
             <p>
               We embed AI directly into your business processes to handle complexity, improve accuracy, and unlock speed across operations. From data ingestion to decision execution, our solutions adapt, learn, and improve so your systems work harder without adding headcount.
             </p>
-            <ul className="text-base sm:text-lg text-muted-foreground list-disc pl-6 space-y-2">
-              <li>Reduce Error Rates: Eliminate manual copy-paste mistakes.</li>
-              <li>Instant Scalability: Handle 10x the volume without hiring 10x the staff.</li>
-              <li>Real-Time Execution: Tasks are completed the second they are triggered.</li>
+            <ul className="text-base sm:text-lg text-muted-foreground space-y-3">
+              <li className="flex items-start justify-center gap-3">
+                <span className="mt-2 h-2 w-2 rounded-full bg-muted-foreground/70 flex-shrink-0" />
+                <span className="text-left">
+                  Reduce Error Rates: Eliminate manual copy-paste mistakes.
+                </span>
+              </li>
+              <li className="flex items-start justify-center gap-3">
+                <span className="mt-2 h-2 w-2 rounded-full bg-muted-foreground/70 flex-shrink-0" />
+                <span className="text-left">
+                  Instant Scalability: Handle 10x the volume without hiring 10x the staff.
+                </span>
+              </li>
+              <li className="flex items-start justify-center gap-3">
+                <span className="mt-2 h-2 w-2 rounded-full bg-muted-foreground/70 flex-shrink-0" />
+                <span className="text-left">
+                  Real-Time Execution: Tasks are completed the second they are triggered.
+                </span>
+              </li>
             </ul>
           </div>
         </div>
